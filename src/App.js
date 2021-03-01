@@ -14,7 +14,7 @@ const App = () => {
   };
   return(
     <>
-    <Header toggle={toggle} />
+    <Header  toggle={toggle} />
     <Switch>
         <Route exact path="/" render={() => <Home />} />
         <Route  path="/posts" component={Posts} /> 

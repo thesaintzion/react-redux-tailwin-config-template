@@ -48,6 +48,16 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  --appSuccess: #1dce9e;
+  --appWarning: #fdd400;
+  --appSuccessLight: #edfbf8;
+  --appPrimary: #6838f3;
+  --appPrimaryLight: #e7dfff;
+  --appGray: #f9fbfc;
+  --appBlue: #19154e;
+  --appBlueLight: rgb(7, 20, 53);
+  
   --app-color-danger: #eb5566;
   --app-color-danger-deeper: #FC1725;
   --app-color-danger-transparent: rgba(235, 85, 102, 0.3);
@@ -57,7 +67,8 @@
   --app-color-primary: #4b93ff;
   --app-font-family-liber: "Liber Splash";
   --app-font-family-cairo-light: "Cairo Light";
-  --app-font-family-cairo-black: "Cairo Black"
+  --app-font-family-cairo-black: "Cairo Black",
+ 
   }
   
 body {
@@ -65,7 +76,7 @@ body {
   // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   //   sans-serif;
-  font-family: var(--app-font-family-liber);
+  font-family: var(--font-family-sans-serif);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #fff;

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../logo.svg';
  const  Header = ({toggle}) =>  {
     return (
         <nav
-        className='flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono'
+        className='flex justify-between items-center h-16 bg-white text-black shadow-sm font-mono fixed w-full left-0 top-0'
         role='navigation'
       >
-        <Link to='/' className='pl-8'>
-          EGG
+        <Link to='/' className='pl-4'>
+ {/* <img width="80" src={logo} /> */}
         </Link>
         <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
           <svg
@@ -42,7 +43,5 @@ import { Link } from 'react-router-dom';
       </nav>
     )
 }
-
-
 
 export default Header;
