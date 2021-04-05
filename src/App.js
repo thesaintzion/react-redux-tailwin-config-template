@@ -1,4 +1,10 @@
 import './App.scss';
+// Import Swiper styles
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
+
 import { Route, Switch} from "react-router-dom";
 import Home from './components/pages/Home';
 import PageNotFound from './components/pages/PageNotFound';
